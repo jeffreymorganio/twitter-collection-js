@@ -1,0 +1,31 @@
+{
+  "name": "twitter-collection-js",
+  "version": "1.0.0",
+  "description": "Collect tweets filtered from the Twitter streaming API with Node.js.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UsabilityEtc/twitter-collection-js.git"
+  },
+  "author": {
+    "name": "Jeffrey Morgan",
+    "email": "usabilityetc@gmail.com",
+    "url": "https://usabilityetc.com"
+  },
+  "keywords": [
+    "twitter",
+    "collection",
+    "tweets"
+  ],
+  "scripts": {
+    "start": "node collect.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "npm": "^6.7.0",
+    "twitter": "^1.2.5",
+    "underscore": "^1.9.1"
+  }
+}
